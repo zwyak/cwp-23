@@ -1,6 +1,6 @@
 {
    "private": true,
    "name": "cwp-23-monorepo",
-   "workspaces": [],
+   "workspaces": ["packages/*"],
    "scripts": {}
 }
