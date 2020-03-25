@@ -1,10 +1,14 @@
 const data = require('../data.json');
-console.log(data);
+
 const getElementJson = (el) =>{
-  data.forEach((item, i) => {
-    if (item.name == el) return item;
-    else return 'Not Found'
-  });
+  let res;
+  for (var i = 0; i < data.length; i++) {
+    if (data[i].name == el){
+      return data[i];
+    }
+  }
+
+  return 'NOT FOUND';
 }
 
 module.exports.getElementJson = getElementJson;

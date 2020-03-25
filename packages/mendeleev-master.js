@@ -8,5 +8,3 @@ const getElements = () =>{
 }
 
 module.exports.getElements = getElements;
-
-getElements()
