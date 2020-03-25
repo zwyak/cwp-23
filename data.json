@@ -1,0 +1,19 @@
+[
+  {
+    "name": "H20",
+    "number": 1,
+    "weight": 0.314
+  },
+
+  {
+    "name": "H2SO4",
+    "number": 2,
+    "weight": 1.362
+  },
+
+  {
+    "name": "CO2",
+    "number": 3,
+    "weight": 0.001
+  }
+]
